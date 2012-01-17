@@ -1,0 +1,9 @@
+<h1>{{ paste.name }}</h1>
+<pre class="brush: {{ paste.language|lower }}">
+{{ paste.body }}
+</pre>
+<hr/>
+When: {{ paste.timestamp }}<br/>
+Who: {{ paste.author }}<br/>
+Language: {{ paste.language }}<br/>
+Where: <a href="{{ baseurl }}/id/{{ paste.id }}/">{{ baseurl }}/id/{{ paste.id }}/</a>

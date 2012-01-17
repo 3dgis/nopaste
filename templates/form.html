@@ -1,0 +1,42 @@
+<h1>New snippet</h1>
+<form method="POST" action="index.php">
+	<input type="hidden" value="1" name="submitpaste" />
+<div id="pasteform">
+	<label for="name">Name:</label>
+	<input id="name" type="text" name="name" value="" required />
+	<label for="language">Language:</label>
+	<select name="language" id="language">
+		<option>AS3</option>
+		<option>AppleScript</option>
+		<option>Bash</option>
+		<option>CSharp</option>
+		<option>ColdFusion</option>
+		<option>Cpp</option>
+		<option>Css</option>
+		<option>Delphi</option>
+		<option>Diff</option>
+		<option>Erlang</option>
+		<option>Groovy</option>
+		<option selected="selected">JScript</option>
+		<option>Java</option>
+		<option>JavaFX</option>
+		<option>Perl</option>
+		<option>Php</option>
+		<option>Plain</option>
+		<option>PowerShell</option>
+		<option>Python</option>
+		<option>Ruby</option>
+		<option>Sass</option>
+		<option>Scala</option>
+		<option>Sql</option>
+		<option>Vb</option>
+		<option>Xml</option>
+	</select>
+	<label for="author">Author:</label>
+	<input id="author" type="text" name="author" value="" />
+	<label for="content">Content:</label>
+	<textarea id="content" name="content" cols="100" rows="20" required></textarea>
+	<input type="submit" name="submit" value="Submit" />
+	<input type="reset" name="reset" value="Reset" />
+</div>
+</form>

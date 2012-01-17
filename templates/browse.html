@@ -1,0 +1,6 @@
+<h1>Last 50 snippets</h1>
+<ul>
+{% for item in snippets %}
+    <li><a href="{{ baseurl }}/id/{{ item.id }}/">{{ item.name }}</a> ({{ item.timestamp }} | {{ item.author }} | {{ item.language }})</li>
+{% endfor %}
+</ul>
